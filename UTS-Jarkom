@@ -1,0 +1,48 @@
+1. Jelaskan menurut Anda apa itu jaringan komputer?
+=>
+Jaringan komputer adalah kumpulan perangkat komputer dan perangkat lain yang saling terhubung, memungkinkan mereka untuk berbagi data, sumber daya, dan informasi.
+
+2. Sebutkan komponen OSI Layer dan jelaskan apa itu OSI Layer?
+=>
+OSI Layer, atau model OSI (Open Systems Interconnection), adalah model referensi yang digunakan untuk memahami dan merancang interaksi komunikasi jaringan antara berbagai sistem.
+Model OSI memiliki tujuh lapisan (layer) yang masing-masing memiliki peran tertentu dalam proses pengiriman dan penerimaan data.
+Physical Layer - Data Link Layer - Network Layer - Transport Layer - Session Layer - Presentation Layer - Application Layer.
+
+3. Jelaskan menurut Anda apa itu DHCP Server?
+=>
+DHCP Server (Dynamic Host Configuration Protocol Server) adalah server atau layanan dalam jaringan komputer yang secara otomatis memberikan konfigurasi IP dan informasi jaringan lainnya kepada perangkat yang terhubung.
+
+4. Jelaskan menurut Anda apa itu DHCP Client?
+=>
+DHCP Client adalah perangkat atau komponen dalam jaringan yang meminta dan menerima konfigurasi alamat IP secara otomatis dari DHCP Server.
+
+5. Jelaskan menurut Anda apa itu IP class A, IP class B, dan IP class C?
+=>
+IP Class A, Class B, dan Class C adalah tiga dari lima kelas alamat IP dalam sistem pengalamatan IPv4 yang digunakan untuk membedakan dan mengalokasikan rentang alamat IP sesuai ukuran dan kebutuhan jaringan.
+Setiap kelas memiliki jumlah alamat dan rentang IP yang berbeda, serta penggunaan yang disesuaikan dengan skala jaringan.
+IP Class A = 16.000.000 Total IP Host
+IP Class B = 16.384 Total IP Host
+IP Class C = 254 Total IP Host
+
+6. Jelaskan menurut Anda apa itu Firewall?
+=>
+Firewall adalah sistem keamanan jaringan yang dirancang untuk memantau, mengontrol, dan mengelola lalu lintas data antara jaringan internal (seperti LAN perusahaan) dan jaringan eksternal (seperti internet)
+berdasarkan aturan keamanan yang telah ditentukan.
+
+7. Jelaskan menurut Anda apa itu NAT?
+=>
+NAT (Network Address Translation) adalah proses yang digunakan dalam jaringan untuk mengubah alamat IP pada paket data saat melewati perantara, seperti router atau firewall.
+Fungsi utama NAT adalah untuk mengizinkan perangkat di jaringan lokal (dengan alamat IP private) berkomunikasi dengan jaringan eksternal (seperti internet) menggunakan satu atau beberapa alamat IP publik.
+NAT biasanya diterapkan di router, yang berada diantara jaringan lokal dan jaringan eksternal.
+
+8. Jelaskan menurut Anda apa itu Routing?
+=>
+Routing adalah proses pengiriman paket data dari satu jaringan ke jaringan lainnya melalui jalur atau rute terbaik.
+
+Jawaban Studi Kasus:
+1. Config IP Address menuju laptop pada Router.
+2. Config IP Address menuju Internet pada Router.
+3. Setup DHCP Server di Router, agar Laptop mendapatkan IP Address.
+4. Setup DHCP Client di Laptop agar dapat IP Address dari Router.
+5. Config default route (0.0.0.0/0) ke arah Internet.
+6. Config NAT, agar Laptop dapat akses ke Internet.
